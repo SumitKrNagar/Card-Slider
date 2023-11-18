@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px white solid;
+    border-radius: 1vw;
+
+    background-color: hsl(212, 42%, 15%);
+
+}
+
+.hding {
+    font-size: 40px;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+/* SWIPER CONTAINER */
+.swiper {
+    width: 1000px;
+    height: 560px;
+    color: white;
+}
+
+.swiper [class^="swiper-button-"] {
+    width: 15px;
+    color: white;
+}
+
+.swiper [class^="swiper-pagination"] {
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+/* CARD DESIGN */
+
+.cardcont {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 0.2vw white solid;
+    border-radius: 3vh;
+    height: 470px;
+    width: 320px;
+    background-color: white;
+}
+
+.upcard {
+    height: 40%;
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img {
+    object-fit: cover;
+}
+
+.downcard {
+    background-color: hsl(212, 42%, 15%);
+    height: 60%;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nme {
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.price {
+    font-size: small;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3vh;
+    border-style: none;
+    color: black;
+
+    cursor: pointer;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    height: 35px;
+    width: 70px;
+    letter-spacing: .25px;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button:hover {
+    background: #F6F9FE;
+    color: blue;
+}
+
+@media screen and (max-width: 1024px) {}
